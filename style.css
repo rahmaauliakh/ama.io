@@ -455,3 +455,19 @@ ul li a:hover{
     }
 
 }
+
+main{
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: var(--primary-color);
+    color: var(--extra-light);
+    text-align: center;
+    padding: 10px;
+    width: 150%;
+}
