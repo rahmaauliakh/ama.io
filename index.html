@@ -13,13 +13,12 @@
     <title>Portofolio Ama</title>
 </head>
 <body>
-    <nav>
-        <div class="nav_content">
+    <nav><div class="nav_content">
         <div class="logo"><a href="#">Rahma</a></div>
-        <label for="check" class="checkbox">
-            <i class="ri-menu-line"></i>
-        </label>
-        <input type="checkbox" name="check" id="check">
+    <label for="check" class="checkbox">
+        <i class="ri-menu-line"></i>
+    </label>
+    <input type="checkbox" name="check" id="check">
     <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -27,10 +26,95 @@
         <li><a href="#contact">Contact</a></li>
     </ul>
     </div>
-    </nav>
-    <section class="section" id="home">
-        <div class="section_container">
-            <div class="content">
-                <p>cotsr</p>
+</nav>
+<section class="section" id="home">
+    <div class="section_container">
+        <div class="content">
+            <h1 class="title">I'm <span>Rahma Aulia Khoirunnisa</span>
+             <br><span>Informatics Engineering</span> Student </h1>
+            <p class="description">
+                Welcome to my portofolio. I'm Rahma, and I'm an Informatics Engineering Student with a strong passion for digital marketing 
+                and social media. I am dedicated to merging my teccal skills with my interest in online marketing to create impactful digital experiences. Thank you for visiting my portofolio.
+            </p>
+            <div class="action_btns">
+                <button class="hire_me" onclick="location.href='#contact'">Hire Me</button>
+            </div>
+        </div>
+        <div class="image">
+            <img src="potorahma.jpeg" alt="profile">
+        </div>
+    </div>
+</section>
+
+<!-----------------About Section----------------->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="potorahma.jpeg">
+    </div>
+
+    <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <h4>Informatics Engineering Student</h4>
+        <p>I am a 1st semester student who is studying at the University of Logistics and International Business majoring in D4 Informatics Engineering. Although I do not have basic IT but I have a strong determination to become a web developer.</p>
+    </div>
+</section>
+
+<!-----------------Portofolio Section----------------->
+<section class="portofolio" id="portofolio">
+
+        <h1><span>Latest</span> Project</h1>
+
+    <div class="portofolio-content">
+        <div class="row">
+            <img src="1.png">
+            <div class="layer">
+                <h2>Game Greenfoot</h2>
+                <p>n interactive game developed using Greenfoot, combining programming logic and creativity for an engaging gameplay experience.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="2.png">
+            <div class="layer">
+                <h2>Website TechPath</h2>
+                <p>A tech education platform designed to help users explore the IT world, offering courses and insightful articles.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="3.png">
+            <div class="layer">
+                <h2>Website Hospital</h2>
+                <p>A modern hospital website that simplifies patient registration, online consultations, and access to medical information.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-----------------Contact Section----------------->
+<section class="contact" id="contact">
+    <div class="contact-text">
+        <h2>Contact <span>Me!</span></h2>
+        <h4>If you have any project in your mind.</h4>
+        <p> I'm an Informatics Engineering Student with a strong passion for digital marketing 
+            and social media. I am dedicated to merging my teccal skills with my interest in online marketing to create impactful digital experiences.
+        </p>
+    </div>
+
+    <div class="contact-form">
+        <form action="">
+            <input type="name" placeholder="Your Name" required>
+            <input type="Email" placeholder="Your Email" required> 
+            <input type="Number" placeholder="Your Mobile" required>
+            <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
+            <input type="submit" value="Send Massage" class="submit" required>              
+        </form>
+    </div>
+</section>
+<main>
+    <footer>&copy; 2024 Website Responsif, Hak Cipta Dilindungi.</footer>
+</main>
 </body>
+<script type="module" src="https://cdn.jsdelivr.net/gh/domyid/tracker@1.0.2/index.js"></script>
 </html>
